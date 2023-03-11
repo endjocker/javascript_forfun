@@ -1,0 +1,43 @@
+body {
+
+    background-color: white;
+    color: black;
+    font-family: 'Pacifico', cursive;
+
+}
+
+h1, h2 { font-family: 'Pacifico', cursive;
+        font-weight: normal;
+        text-align: center;
+    }
+
+
+
+
+.parent {
+
+    text-align: center;
+    box-shadow: 5em;
+    background-color: coral;
+    font-family: 'Pacifico', cursive;
+    font-weight: normal;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+ 
+
+}
+
+button {
+
+    color: dark;
+    background-color: pink;
+    font-size: 12pt;
+    padding: 30px;
+    font-family: 'Pacifico', cursive;
+    font-size: 12pt;
+    
+}
+
