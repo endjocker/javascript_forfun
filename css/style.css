@@ -1,8 +1,9 @@
 body {
 
-    background-color: white;
+    background-color:antiquewhite; 
     color: black;
     font-family: 'Pacifico', cursive;
+    height: 2000px;
 
 }
 
@@ -10,6 +11,14 @@ h1, h2 { font-family: 'Pacifico', cursive;
         font-weight: normal;
         text-align: center;
     }
+
+img {
+
+    display: block;
+    margin: 0px auto;
+
+
+}
 
 
 
@@ -31,7 +40,7 @@ h1, h2 { font-family: 'Pacifico', cursive;
 
 }
 
-button {
+.btn {
 
     color: dark;
     background-color: pink;
@@ -39,11 +48,51 @@ button {
     padding: 30px;
     font-family: 'Pacifico', cursive;
     background: #f80036;
-    border: 9px solid #F5F5F5;
+    border: 7px solid #F5F5F5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 14px;
     font-weight: 600;
     cursor: pointer;
+    transition: all 1s;
     
+}
+
+.btn:before, .btn::after {
+
+    background-color: #f80036;
+    height: 10px;
+    border-top: 5px solid blue;
+    border-left: 5px solid blue;
+    width: 10px;
+    position: absolute;
+    border: 0px solid blue;
+    transition: all 1s;
+
+
+}
+
+.btn:before {
+        bottom: -1px;
+        right: -1px;
+        border-top: 5px solid blue;
+}
+
+::-webkit-scrollbar {
+
+    width: 20px;
+}
+
+::-webkit-scrollbar-track{
+
+    background: #ff0043;
+    border-radius: 30px;
+
+}
+
+::-webkit-scrollbar-thumb {
+
+    background: #000000;
+    border-radius: 30px;
+
 }
 

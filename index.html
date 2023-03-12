@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/iziToast.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/26bbdc42b4.css" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet">
     <title>By Giovanna</title>
 </head>
 <body>
     <h1>Olá Meu Amor</h1>
+    <img src="imagens/mo.jpg" width="300px" alt="">
     <h2> Essa é uma página onde todos os dias irei atualizar para homenagear você!. </h2>
+
     <!-- Aqui ficará os botões e suas funções-->
-    <button onclick="acao1()">Data do nosso relacionamento?</button>
-    <button onclick="acao2()">Qual o local que nós começamos a namorar?</button> 
-    <button onclick="acao3()">Oque mais gostamos de fazer juntos?</button> 
-    <button onclick="acao4()">Qual a sua flor favorita? </button>
-    <button onclick="acao5()">Qual a sua fruta favorita? </button> 
+    <button class="btn" onclick="acao1()">Data do nosso relacionamento?</button>
+    <button class="btn" onclick="acao2()">Qual o local que nós começamos a namorar?</button> 
+    <button class="btn" onclick="acao3()">Oque mais gostamos de fazer juntos?</button> 
+    <button class="btn" onclick="acao4()">Qual a sua flor favorita? </button>
+    <button class="btn" onclick="acao5()">Qual a sua fruta favorita? </button> 
 
     <br/>
 
@@ -24,9 +27,18 @@
 
         
 
-    </div>    
+    </div>
+    
+    <div class="fa-3x">
+        <!--<i class="fa-solid fa-circle-plus fa-beat"></i> -->
+        <i class="fa-solid fa-heart fa-beat"></i>
+        <i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s;" ></i>
+        <i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 2s;"></i>
+        <i class="fa-solid fa-heart fa-beat" style="--fa-beat-scale: 2.0;"></i>
+      </div>
 </body>
     <script src="js/iziToast.min.js" type="text/javascript"></script>
     <script src="js/anim.js" type="text/javascript"></script>
+    <script src="https://kit.fontawesome.com/26bbdc42b4.js" crossorigin="anonymous"></script>
 
 </html>
